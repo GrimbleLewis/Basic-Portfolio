@@ -1,0 +1,239 @@
+html { 
+    background: url(../images/gravel.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.content-width {
+    width: 960px;
+    margin-top: 125px;
+    background: #ffffff; 
+    border: 2px solid #dddddd;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+    min-width: 960px;
+    max-width: 960px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+
+}
+
+
+#head {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    min-width: 960px;
+    height: 117px;
+    margin-top: -146px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+#head-width {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a:link {
+    text-decoration: none;
+    color: #666666;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #666666;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#name {
+    float: left;
+    padding: 30px;
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
+#menu {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    text-align: right;
+    margin-top: 60px;
+
+}
+
+.menu-space{
+    margin-right: 15px;
+}
+
+
+
+.content-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+}
+
+#headshot {
+    float: left;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p-content {
+    line-height: 35px;
+    margin-right: 30px;
+    margin-left: 30px;
+    color: #777777;
+}
+
+form {
+    padding-left: 30px;
+}
+
+label {
+    color: #777777;
+    font-size: 20px;
+}
+
+input {
+    margin-top: 7px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 877px;
+}
+
+#submit {
+    width: 15%;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#p-footer {
+    font-size: 12px;
+    margin-top: 25px;
+    color: #ffffff;
+}
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    margin-top: -50px;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    background: #666666;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 2px solid red;
+}
+
+.project-links {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+textarea {
+    width: 895px;
+    height: 200px;
+    resize: none;
+}
+
+.img-container {
+    position: relative;
+}
+
+.image1 {
+    position: absolute;
+    top: 18%;
+    left: 5.3%;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 67.5px;
+    padding-left: 67.5px;
+}
+
+.image2 {
+    position: absolute;
+    top: 18%;
+    left: 31.7%;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 75.5px;
+    padding-left: 74.5px;
+    display: -webkit-box;
+}
+
+.image3 {
+    position: absolute;
+    top: 51%;
+    left: 5.3%;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 87.5px;
+    padding-left: 87.5px;
+}
+
+.image4 {
+    position: absolute;
+    top: 51%;
+    left: 31.7%;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 86.5px;
+    padding-left: 86.5px;
+    display: -webkit-box;
+}
+
+.image5 {
+    position: absolute;
+    top: 84%;
+    left: 5.3%;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 83.5px;
+    padding-left: 84.5px;
+}
